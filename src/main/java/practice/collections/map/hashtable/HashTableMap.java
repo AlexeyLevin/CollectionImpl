@@ -6,7 +6,7 @@ public class HashTableMap<K, V> implements Map<K, V> {
 
     private int bucketsCount = 10100;
 
-    private LinkedList<LinkedList<Pair>> buckets = new LinkedList<LinkedList<Pair>>();
+    private ArrayList<LinkedList<Pair>> buckets = new ArrayList<LinkedList<Pair>>();
     {
         for (int i = 0; i < bucketsCount; i++) {
             buckets.add(new LinkedList<Pair>());
