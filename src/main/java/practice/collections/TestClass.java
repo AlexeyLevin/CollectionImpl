@@ -9,17 +9,17 @@ import java.util.Vector;
 
 public class TestClass {
 
-    @Benchmark
+//    @Benchmark
     public void testJDKArrayList() {
         add(new ArrayList<Integer>());
     }
 
-    @Benchmark
+//    @Benchmark
     public void testJDKLinkedList() {
         add(new LinkedList<Integer>());
     }
 
-    @Benchmark
+//    @Benchmark
     public void testJDKVector() {
         add(new Vector<Integer>());
     }
