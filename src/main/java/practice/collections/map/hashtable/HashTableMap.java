@@ -142,7 +142,11 @@ public class HashTableMap<K, V> implements Map<K, V> {
 
     @Override
     public Set<Entry<K, V>> entrySet() {
-        return (Set<Entry<K, V>>) (Set) new HashSet<>(buckets);
+        Set<Entry<K,V>> entrySet = new HashSet<>();
+        for (LinkedList<Pair> entry : buckets) {
+            entrySet.addAll(entry);
+        }
+        return entrySet;
     }
 
     private class Pair implements Map.Entry<K, V> {
