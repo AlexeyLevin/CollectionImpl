@@ -2,8 +2,8 @@
 Implements JDK collections and test complexity with JMH
 
 run JMH tests:
-mvn clean install
-java -jar target\benchmarks.jar
+# mvn clean install
+# java -jar target\benchmarks.jar
 
 results:
 
