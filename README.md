@@ -35,7 +35,6 @@ TestMapClass.testPutAndGetMyHashTableMap  thrpt  200  212,736 ? 8,380  ops/s
 </pre>
 
 ### links
-<pre>
 http://docs.oracle.com/javase/7/docs/api/java/util/List.html
 http://docs.oracle.com/javase/7/docs/api/java/util/AbstractList.html
 http://hg.openjdk.java.net/jdk8u/jdk8u-dev/jdk/file/c5d02f908fb2/src/share/classes/java/util/AbstractList.java
@@ -45,4 +44,3 @@ http://hg.openjdk.java.net/jdk8u/jdk8u/jdk/file/97b3a4fc3290/src/share/classes/j
 https://docs.oracle.com/javase/8/docs/api/java/util/Map.html
 http://hg.openjdk.java.net/jdk8u/jdk8u-dev/jdk/file/c5d02f908fb2/src/share/classes/java/util/AbstractMap.java
 http://docs.oracle.com/javase/6/docs/api/java/util/HashMap.html
-</pre>
